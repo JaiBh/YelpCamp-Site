@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../main.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-web/css/all.min.css">
+    <title>YelpCamp || Add Review</title>
+</head>
+<body>
+    <header class="campground-page-header">
+        <!-- Announcement -->
+        <div class="announcement-container">
+            <h4 class="announcement-text">This project was made by <a href="#" class="announcement-link">Colt Steele</a> and designed by <a href="#" class="announcement-link">Codewell</a></h4>
+            <span id="announcement-close-btn"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <!-- end of Announcement -->
+        <!-- Navbar -->
+        <nav id="nav">
+            <div class="nav-container container">
+                <div class="nav-header">
+                    <img src="../Assets/Logo.svg" alt="logo">
+                    <a href="../index.html" class="nav-link">Home</a>
+                    <a href="./search.html" class="nav-link">Search</a>
+                </div>
+                <div class="nav-account">
+                    <a href="./sign-in.html" class="nav-login">Login</a>
+                    <a href="./sign-up.html" class="btn nav-btn">Create an account</a>
+                </div>
+                <span class="nav-menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+    </header>
+    <main>
+        <section class="add-comment-section">
+            <div class="add-comment-container container">
+                <form action="submit" class="add-comment-form">
+                    <h2>Add New Comment</h2>
+                    <div class="form-row">
+                        <label class="form-label">Description</label>
+                        <textarea class="form-input form-input-yellow textarea">This was probably the best camp i’ve visited this past year, definitely recommend visiting any time soon.</textarea>
+                    </div>
+                    <button class="btn">Post Comment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container container">
+            <img src="../Assets/Logo.svg" alt="Logo">
+        </div>
+    </footer>
+</body>
+<script type="module" src="../js/script.js"></script>
+</html>
